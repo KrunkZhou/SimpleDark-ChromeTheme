@@ -1,0 +1,46 @@
+{
+   "manifest_version": 2,
+   "name": "Simple Dark - 极简黑暗模式",
+   "description": "A simple dark mode - 极简黑暗模式",
+   "author": "KRUNK.CN",
+   "theme": {
+      "colors": {
+	  "ntp_background": [ 36, 36, 36 ],
+         "ntp_header": [ 255, 255, 255 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 181, 181, 181 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 25, 25, 20 ],
+         "background_tab": [ 100, 100, 100 ],
+         "bookmark_text": [ 255, 255, 255 ],
+         "button_background": [ 35, 35, 35 ],
+         "buttons": [ 35, 35, 35 ],
+         "frame": [ 50, 50, 50 ],
+         "frame_inactive": [ 0, 0, 0 ]
+      },
+      "images": {
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_tab_background_inactive": "images/theme_tab_background_inactive.png",
+		 "theme_frame": "images/theme_frame.png",
+         "theme_frame_inactive": "images/theme_frame_inactive.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+	  "properties" : {
+	  "ntp_background_alignment": "center|stretch|top|top left|top right|bottom|bottom left|bottom right",
+      "ntp_background_repeat": "no-repeat|repeat|repeat-x|repeat-y",
+	  "ntp_logo_alternate": 0
+	  },
+      "tints": {
+         "buttons": [ 0, 0, 0.75 ]
+      },
+	  "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+	  "128": "images/icon128.png"
+	  }
+   },
+   "version": "1.0",
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
